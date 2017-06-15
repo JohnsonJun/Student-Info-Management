@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= 'Student List'
+  a(href='./addstudent') Add Student
+  ul
+    each result, i in results
+        li=result.firstname + ' ' + result.lastname

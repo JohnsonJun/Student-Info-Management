@@ -1,0 +1,14 @@
+extends layout
+
+
+block content
+  script(type='text/javascript' src='javascripts/cancel.js')
+  script(type='text/javascript' src='javascripts/save.js')
+  h1= 'Add Student'
+  form#formAddStudent(name="addstudent")
+  input#inputStudentName(type="text",placeholder="enter first and last name",name="studentname")
+  p
+  button.btn.btn-default(id="save", name="save",type="button") Save
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  button.btn.btn-default(id="cancel",type="button") Cancel
+
