@@ -1,4 +1,4 @@
-Here is the source code of my take-home test.
+Here is the source code
 Before starting the server, Please use the SQL query in the Database.sql to initiate the Database.
 I used MySQL as the database on my computer. Therefore, the DB connection in the app.js file is based on MySQL with the local host. 
 I leave the user and password blank to be filled in when the DB is set.
